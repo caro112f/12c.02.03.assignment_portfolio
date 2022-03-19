@@ -190,7 +190,7 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 2rem 1rem 0rem 1rem;
+  padding: 2rem 1rem 0rem 1rem;
 }
 #hr_wrapper hr {
   border-bottom: 2px solid #213760;
@@ -315,7 +315,7 @@ footer p {
     padding: 5rem 7rem 5rem 7rem;
   }
   footer {
-    margin: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
   }
   .detail_card p {
     padding: 2rem 4rem 2rem 4rem;
@@ -405,7 +405,7 @@ footer p {
     padding: 8rem 12rem 8rem 12rem;
   }
   footer {
-    margin: 2rem 3rem 2rem 3rem;
+    padding: 2rem 3rem 2rem 3rem;
   }
   #cards_container {
     max-width: 1200px;
