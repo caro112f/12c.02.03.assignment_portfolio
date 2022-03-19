@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html id="font_card" class="assignment_page" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio: Fonts and Cards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@300&family=Rozha+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header_section">
+      <nav>
+        <a href="index.html"><img src="img/home.svg" alt="" /></a>
+        <ul>
+          <li>
+            <a class="hover" href="#about">➜ About the project</a>
+          </li>
+          <li>
+            <a class="hover" href="#details">➜ Details</a>
+          </li>
+          <li><a class="hover" href="#link_box">➜ Link to solution</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="header_text">
+          <h1>
+            Assignment: <br />
+            <span class="big">Fonts </span> and <span class="big"> Cards</span>
+          </h1>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section id="about" class="info_wrapper">
+        <div class="info_card">
+          <div>
+            <img src="img/font-card.png" alt="" />
+          </div>
+          <div>
+            <h2>About the project</h2>
+            <hr id="about_hr" />
+            <div>
+              <p>
+                In this project the focus was on choosing fonts and figuring out
+                the compatability of the different font pairs. Futhermore the
+                scaling of fonts in different heading types was calculated with
+                the help of a type scaler.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="details" class="info_wrapper">
+        <div id="cards_container">
+          <h2>Selected details</h2>
+          <!-- <hr class="black_hr" /> -->
+          <div class="detail_card">
+            <div>
+              <img src="blisk_fontcard/font.png" alt="" />
+            </div>
+            <div>
+              <h3>Choosing fonts</h3>
+              <hr />
+              <p>
+                The fonts chosen for this assignment are Audiowide font for
+                h1-h6 and the Raleway font for p-texts.
+              </p>
+            </div>
+          </div>
+          <div class="detail_card reverse">
+            <div id="reverse_img">
+              <img src="blisk_fontcard/grid.png" alt="" />
+            </div>
+            <div id="reverse_text">
+              <h3>Displaying list of cards with grid</h3>
+              <hr />
+              <p>
+                The layout for the UI-cards are made using grid, as this
+                CSS-tool is helpful for making more precise layouts.
+              </p>
+            </div>
+          </div>
+          <div class="detail_card">
+            <div>
+              <img src="blisk_fontcard/flex.png" alt="" />
+            </div>
+            <div>
+              <h3>Aligning content inside card with flex</h3>
+              <hr />
+              <p>
+                The content within the UI-cards uses flex for layout. Flex is
+                ideal for this content as the different properties for flex,
+                such as flex-direction, makes it easier to transition between
+                mobile and web, and therefore ensures responsiveness.
+              </p>
+            </div>
+          </div>
+          <div class="detail_card reverse">
+            <div id="reverse_img">
+              <img src="blisk_fontcard/hover.png" alt="" />
+            </div>
+            <div id="reverse_text">
+              <h3>Adding scale effect on hover</h3>
+              <hr />
+              <p>
+                For effect the UI-cards have a scale CSS animation. When the
+                user hovers over a card, the card scales to 1.03 of its size
+                with an ease-out transition.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="link_box" class="info_wrapper">
+        <div class="link">
+          <div>
+            <h2>Link to solution</h2>
+            <hr />
+            <a
+              id="a_link"
+              href="https://caro112f.github.io/12c.01.01-fonts-and-cards/"
+              >https://caro112f.github.io/12c.01.01-fonts-and-cards/</a
+            >
+          </div>
+        </div>
+      </section>
+      <div id="back_to_top">
+        <a href="index.html"
+          ><h4>
+            ↑<br />
+            Back to top
+          </h4></a
+        >
+      </div>
+    </main>
+    <div id="hr_wrapper">
+      <hr />
+    </div>
+    <footer>
+      <!-- Footer component -->
+      <div>
+        <h4>Made by:</h4>
+        <ul>
+          <li><p>Caroline Holm Nielsen</p></li>
+          <li><p>Student</p></li>
+          <li><p>Multimedia Design</p></li>
+        </ul>
+      </div>
+      <section>
+        <div>
+          <h4>Contact:</h4>
+          <ul>
+            <li><p>Københavns Erhvervsakademi</p></li>
+            <li><p>Guldbergsgade 29, 2200 København</p></li>
+            <li><p>+45 46460000</p></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

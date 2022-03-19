@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@300&family=Rozha+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section id="header_section">
+      <nav>
+        <a class="none" href="index.html"><img src="img/home.svg" alt="" /></a>
+        <ul>
+          <li><a class="hover" href="#list_assignments">➜ Assignments</a></li>
+          <li><a class="hover" href="#conclusion">➜ Conclusion</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="header_text">
+          <h1>
+            <span class="big">Design</span> <br />
+            for <br /><span class="big">Developers</span> <br />
+            Portfolio
+          </h1>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section id="introduction" class="info_wrapper">
+        <div class="intro_text">
+          <div>
+            <h2>Introduction</h2>
+            <hr id="intro_hr" />
+          </div>
+          <p>
+            Welcome to my portfolio. On this page you will find an overview of
+            the assignments completed during this theme. The general focus of
+            the 2 week program was on how to choose the right typography, color
+            compatibility, designing layouts and UI-cards using Grid and Flex as
+            well as learning about how to make webanimations using WAAPI and
+            GSAP. Have a look around
+          </p>
+          <p>- Caroline Holm Nielsen</p>
+        </div>
+      </section>
+      <main>
+        <section id="list_assignments">
+          <h2>Assignment list</h2>
+          <p>Click on an assignment for more info</p>
+          <div class="assignment_cards">
+            <a href="fonts_cards.html"
+              ><article class="assignment_card">
+                <div class="assignment_card_graphics">
+                  <img src="img/font_card_landing.png" alt="" />
+                </div>
+                <div class="assignment_card_text">
+                  <h3>Fonts and cards</h3>
+                  <hr />
+                </div></article
+            ></a>
+            <a href="color_animation.html"
+              ><article class="assignment_card">
+                <div class="assignment_card_graphics">
+                  <img src="img/color_ani_landing.png" alt="" />
+                </div>
+                <div class="assignment_card_text">
+                  <h3>Colors and animations</h3>
+                  <hr />
+                </div></article
+            ></a>
+            <a href="responsive.html"
+              ><article class="assignment_card">
+                <div class="assignment_card_graphics">
+                  <img src="img/responsive_landing.png" alt="" />
+                </div>
+                <div class="assignment_card_text">
+                  <h3>Responsive Design</h3>
+                  <hr />
+                </div></article
+            ></a>
+            <a href="frameworks.html"
+              ><article class="assignment_card">
+                <div class="assignment_card_graphics">
+                  <img src="img/framework_landing.png" alt="" />
+                </div>
+                <div class="assignment_card_text">
+                  <h3>Designing with frameworks</h3>
+                  <hr />
+                </div></article
+            ></a>
+          </div>
+        </section>
+      </main>
+      <section class="highlight" id="conclusion">
+        <div class="highlight_text">
+          <h2 id="highlight_h2">So what have the assignments taught me?</h2>
+
+          <p>
+            The course has given me many new resources to find inspiration when
+            choosing typography pairs, and taught which types of typography
+            matches best. I have enhanced my skills with Grid and Flex and now
+            know to use the former for general and complex layouts of a webpage
+            and the latter for smaller components such as UI-cards. I have seen
+            how good and bad color matches affect a website as well as how to
+            use animations in a proper way to inspire but not confuse the user.
+          </p>
+        </div>
+      </section>
+      <div id="back_to_top">
+        <a href="index.html"
+          ><h4>
+            ↑<br />
+            Back to top
+          </h4></a
+        >
+      </div>
+    </main>
+    <div id="hr_wrapper">
+      <hr />
+    </div>
+    <footer id="footer">
+      <!-- Footer component -->
+      <div>
+        <h4>Made by:</h4>
+        <ul>
+          <li><p>Caroline Holm Nielsen</p></li>
+          <li><p>Student</p></li>
+          <li><p>Multimedia Design</p></li>
+        </ul>
+      </div>
+      <section>
+        <div>
+          <h4>Contact:</h4>
+          <ul>
+            <li><p>Københavns Erhvervsakademi</p></li>
+            <li><p>Guldbergsgade 29, 2200 København</p></li>
+            <li><p>+45 46460000</p></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

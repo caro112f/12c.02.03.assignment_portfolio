@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html id="color_ani" class="assignment_page" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio: Responsive Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@300&family=Rozha+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header_section">
+      <nav>
+        <a href="index.html"><img src="img/home.svg" alt="" /></a>
+        <ul>
+          <li>
+            <a class="hover" href="#about">➜ About the project</a>
+          </li>
+          <li>
+            <a class="hover" href="#details">➜ Details</a>
+          </li>
+          <li><a class="hover" href="#link_box">➜ Link to solution</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="header_text">
+          <h1>
+            Assignment: <br />
+            <span class="big"> Responsive </span>
+            <span class="big"> Design</span>
+          </h1>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section id="about" class="info_wrapper">
+        <div class="info_card">
+          <div>
+            <img src="img/responsive.png" alt="" />
+          </div>
+          <div>
+            <h2>About the project</h2>
+            <hr id="about_hr" />
+            <div>
+              <p>
+                This website has its focus on responsiveness using Grid and
+                Flex. I have worked in Iphone and Ipad view in the Firefox
+                inspector mode when making the site responsive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="details" class="info_wrapper">
+        <div id="cards_container">
+          <h2>Selected details</h2>
+          <!-- <hr class="black_hr" /> -->
+          <div class="detail_card">
+            <div>
+              <img src="blisk_responsive/grid_layout.png" alt="" />
+            </div>
+            <div>
+              <h3>Responsive grid layout</h3>
+              <hr />
+              <p>
+                Here is an example of two different layouts of the same content
+                between web and mobile. The web uses a grid layout and the
+                mobile version uses a single column layout. This way the content
+                is readable in both formats.
+              </p>
+            </div>
+          </div>
+          <div class="detail_card reverse">
+            <div id="reverse_img">
+              <img src="blisk_responsive/ipad_responsive.png" alt="" />
+            </div>
+            <div id="reverse_text">
+              <h3>Ipad screen size included</h3>
+              <hr />
+              <p>
+                To ensure a comfortable experience for all types of users, the
+                Ipad screen size is included in the making of the website. In
+                some cases the layout from the laptop version fits well with the
+                Ipad, in other cases the more simple layout of the mobile
+                version fits better. If neither makes a good fit, the Ipad
+                screen size gets its own layout.
+              </p>
+            </div>
+          </div>
+          <div class="detail_card">
+            <div>
+              <img src="blisk_responsive/list_view.png" alt="" />
+            </div>
+            <div>
+              <h3>List view in web and mobile</h3>
+              <hr />
+              <p>
+                The list should be easy to read in the mobile, therefore making
+                it be the main content, and the graphical element is either
+                placed over or under the text. In web, the screen is big enough
+                to have some fun with the layout and therefore make the
+                graphical element and text sit next to each other in a more
+                enclosed layout.
+              </p>
+            </div>
+          </div>
+          <div class="detail_card reverse">
+            <div id="reverse_img">
+              <img src="blisk_responsive/contact_form.png" alt="" />
+            </div>
+            <div id="reverse_text">
+              <h3>Contact form in web and mobile</h3>
+              <hr />
+              <p>
+                Another example of a specific type of content that can be
+                changed, this time using Flex and flex-direction. The mobile
+                version fits better with a flex-direction column, whereas the
+                web version uses a combination of row and column.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="link_box" class="info_wrapper">
+        <div class="link">
+          <div>
+            <h2>Link to solution</h2>
+            <hr />
+            <a
+              id="a_link"
+              href="https://caro112f.github.io/12c.01.04.responsive-design/"
+              >https://caro112f.github.io/12c.01.04.responsive-design/</a
+            >
+          </div>
+        </div>
+      </section>
+      <div id="back_to_top">
+        <a href="index.html"
+          ><h4>
+            ↑<br />
+            Back to top
+          </h4></a
+        >
+      </div>
+    </main>
+    <div id="hr_wrapper">
+      <hr />
+    </div>
+    <footer>
+      <!-- Footer component -->
+      <div>
+        <h4>Made by:</h4>
+        <ul>
+          <li><p>Caroline Holm Nielsen</p></li>
+          <li><p>Student</p></li>
+          <li><p>Multimedia Design</p></li>
+        </ul>
+      </div>
+      <section>
+        <div>
+          <h4>Contact:</h4>
+          <ul>
+            <li><p>Københavns Erhvervsakademi</p></li>
+            <li><p>Guldbergsgade 29, 2200 København</p></li>
+            <li><p>+45 46460000</p></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html id="color_ani" class="assignment_page" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio: Colors and Animations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@300&family=Rozha+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header_section">
+      <nav>
+        <a href="index.html"><img src="img/home.svg" alt="" /></a>
+        <ul>
+          <li>
+            <a class="hover" href="#about">➜ About the project</a>
+          </li>
+          <li>
+            <a class="hover" href="#details">➜ Details</a>
+          </li>
+          <li><a class="hover" href="#link_box">➜ Link to solution</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="header_text">
+          <h1>
+            Assignment: <br />
+            <span class="big">Colors </span> and
+            <span class="big"> Animations</span>
+          </h1>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section id="about" class="info_wrapper">
+        <div class="info_card">
+          <div>
+            <img src="img/color_ani.png" alt="" />
+          </div>
+          <div>
+            <h2>About the project</h2>
+            <hr id="about_hr" />
+            <div>
+              <p>
+                This assignment focuses on the compatibility of colors and the
+                importance of checking said compatibility before implementation
+                on a website. Using Adobe's color contrast checker I have found
+                colors that work in either light or dark mode, ensuring that the
+                text is readable and the CTA links and buttons still stand out
+                in good contrast.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="details" class="info_wrapper">
+        <div id="cards_container">
+          <h2>Selected details</h2>
+          <!-- <hr class="black_hr" /> -->
+          <div class="detail_card">
+            <div>
+              <img src="blisk_color_ani/light_vs_dark.png" alt="" />
+            </div>
+            <div>
+              <h3>Light and Dark theme</h3>
+              <hr />
+              <p>
+                Here is an overview of the colors used in light and dark mode.
+                Even though the colors are different, the palette I have used is
+                still complementary to each other. The inspiration for the full
+                color palette is the Nord Theme color palette.
+              </p>
+            </div>
+          </div>
+          <div class="detail_card reverse">
+            <div id="reverse_img">
+              <img src="blisk_color_ani/color_contrast_light.png" alt="" />
+            </div>
+            <div id="reverse_text">
+              <h3>Light theme color contrast</h3>
+              <hr />
+              <p>
+                The light theme color palette consists of a very light grey as
+                background color (#ECEFF4), a dark grey/blue for headers and
+                highlights (#4C566A), a light blue for graphics (#5E81AC), and
+                two accent colors for buttons and links, one yellow (#ECD0A3)
+                and red (#9B5057). Text color is either the dark blue/grey on
+                the light background, or the light grey on the darker highlight
+                backgrounds.
+              </p>
+            </div>
+          </div>
+          <div class="detail_card">
+            <div>
+              <img src="blisk_color_ani/color_contrast_dark.png" alt="" />
+            </div>
+            <div>
+              <h3>Dark theme color contrast</h3>
+              <hr />
+              <p>
+                The dark theme color palette uses the darker highlight color
+                from the light theme as the general background color. The red
+                accent color is not used in this theme, only the yellow for
+                buttons and links. For header and highlights an even darker blue
+                is used (#2E3440), and the graphics are a light green (#8FBCBB).
+              </p>
+            </div>
+          </div>
+          <div class="detail_card reverse">
+            <div id="reverse_img">
+              <img src="blisk_color_ani/highlight.png" alt="" />
+            </div>
+            <div id="reverse_text">
+              <h3>Highlight color and link accent color</h3>
+              <hr />
+              <p>
+                On this picture is shown the example of the highlights in the
+                light theme, with the link in the yellow accent color.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="link_box" class="info_wrapper">
+        <div class="link">
+          <div>
+            <h2>Link to solution</h2>
+            <hr />
+            <a
+              id="a_link"
+              href="https://caro112f.github.io/12c.01.02.colors-and-animations/"
+              >https://caro112f.github.io/12c.01.02.colors-and-animations/</a
+            >
+          </div>
+        </div>
+      </section>
+      <div id="back_to_top">
+        <a href="index.html"
+          ><h4>
+            ↑<br />
+            Back to top
+          </h4></a
+        >
+      </div>
+    </main>
+    <div id="hr_wrapper">
+      <hr />
+    </div>
+    <footer>
+      <!-- Footer component -->
+      <div>
+        <h4>Made by:</h4>
+        <ul>
+          <li><p>Caroline Holm Nielsen</p></li>
+          <li><p>Student</p></li>
+          <li><p>Multimedia Design</p></li>
+        </ul>
+      </div>
+      <section>
+        <div>
+          <h4>Contact:</h4>
+          <ul>
+            <li><p>Københavns Erhvervsakademi</p></li>
+            <li><p>Guldbergsgade 29, 2200 København</p></li>
+            <li><p>+45 46460000</p></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
